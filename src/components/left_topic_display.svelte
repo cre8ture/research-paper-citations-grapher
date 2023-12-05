@@ -1,8 +1,9 @@
 <script>
-    import { current_topic } from "../support/store.js";
-    import Tangled from "./TangledTree.svelte";
+      import Tangled from "./tangledTree.svelte";
     import { fade } from 'svelte/transition';
     import Wiki_Sum from "./wikipediaContent.svelte"
+    import { current_topic } from "../support/store.js";
+
     // import Markdown from "./markdownIdeaViewer.svelte"
   </script>
   
